@@ -7,10 +7,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Estate Group a Real Estate Category Bootstrap Responsive Website Template | Contact :: w3layouts</title>
+<title>Estate Group a Real Estate Category Bootstrap Responsive Website Template | Property Details :: w3layouts</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome -->  
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
 <!-- meta tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -23,7 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <!--//fonts-->	
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script><!-- Required-js -->
-<script src="js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->   
 <script type="text/javascript" src="js/numscroller-1.0.js"></script>
 <!-- here stars scrolling icon -->
 			<script type="text/javascript">
@@ -80,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  <ul class="nav navbar-nav">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="properties.html">Properties</a></li>
+					<li class="active"><a href="properties.html">Properties</a></li>
 					<li class="dropdown">
 					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
 					  <ul class="dropdown-menu">
@@ -89,7 +89,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  </ul>
 					</li>
 					<li><a href="blog.html">Blog</a></li>
-					<li class="active"><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				  </ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -104,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- breadcrumbs -->
 	<div class="w3ls-inner-banner">
 		<div class="container">
-			<h2>Contact Us</h2>
+			<h2>Property Details</h2>
 			<label></label>
 			<div class="clearfix"></div>
 		</div>
@@ -113,66 +113,96 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 	<!-- main-content -->
 	<div class="main-content">
-		<!-- contact-section -->
-	<!--contact-->
-	 <div class="w3layouts-contact-section">
-	    <div class="container">
-				<div class="agileits-contact-main">
-					<div class="col-md-6 w3ls-map">
-						<p class="loc">Our Location</p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map" style="border:0" allowfullscreen=""></iframe>
-					</div>
-					<div class="col-md-6 wthree-contact-in">
-						<p class="sed-para"> Contact Information</p>
-						<p class="para1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
-						<div class="w3-address"> 
-								<address>
-								  <strong>Estate Group</strong><br>
-								  13 browne Street, San Francisco<br>
-								   Co. Estate Group<br>								  
-								  <abbr title="Phone">P:</abbr> +040 123 456 789, +015 89 58 520 520		
-								  </address>
-								<address>
-								  <strong>Email</strong><br>
-								  <a href="mailto:info(at)estategroup.com">info(at)estategroup.com</a>
-							   </address>
-						  </div>
-					</div>
-						<div class="clearfix"> </div>
-			      </div>
-				 <div class="agileinfo-contact-bottom">
-		        <h3 class="text-center find">Drop Your Message</h3>
-				<p class="contactpara1 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-				
-							<form action="#" method="get">
-			   <div class="col-md-6 w3layouts-contact-grid">
-								<p class="your-para">Your Name:</p>
-								<input type="text" placeholder="" name="your name" required="" />
-								<p class="your-para">Your Mail:</p>
-								<input type="text" placeholder="" name="email" required="" />
-								<p class="your-para">Phone:</p>
-								<input type="text" placeholder="" name="tel" required="" />
-								<p class="your-para">Company Name:</p>
-								<input type="text" placeholder="" name="company name" required="" />		
-				</div>
-				  <div class="col-md-6 w3layouts-contact-grid">
-								<p class="your-para">Subject:</p>
-								<input type="text" placeholder="" name="sub" required="" />
-								<p class="your-para">Your Message:</p>
-								<textarea placeholder="" name="Message" required=""></textarea>
-								<div class="send">
-									<input type="submit" value="Send" >
-								</div>			
-				</div>
-				<div class="clearfix"> </div>
-							</form>	
+		<!-- property-details -->
+		<div class="agileits-property-details">
+			<div class="container">
+						<div class="col-md-6 w3ls-property-images">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<img class="img-responsive" src="images/view-1.jpg" alt="" />
+									</div>
+									<div class="item">
+										<img class="img-responsive" src="images/view-2.jpg" alt="" />
+									</div>
+									<div class="item">
+										<img class="img-responsive" src="images/view-3.jpg" alt="" />
+									</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-6 ins-details">
+							<div class="ins-name">
+								<h3>Luxury Villa In California</h3>
+								<h6>$3040.156</h6>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+								
+							</div>
+							<div class="span span1">
+								<p class="left">Number of bedrooms</p>
+								<p class="right">: 3</p>
+								<div class="clearfix"></div>
+							</div>
+							<div class="span span2">
+								<p class="left">Number of bathrooms/ensuites</p>
+								<p class="right">: 5</p>
+								<div class="clearfix"></div>
+							</div>
+							<div class="span span1">
+								<p class="left">Parking</p>
+								<p class="right">: Available</p>
+								<div class="clearfix"></div>
+							</div>
+							<div class="span span4">
+								<p class="left">Size of garden/outside space</p>
+								<p class="right">: 1,433 sqft</p>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="clearfix"></div>			
 			</div>
-	   </div>
-     </div>
-<!--//contact-->
-
-<!-- contact-section  -->
-
+		</div>
+		<!-- property-details -->
+		<!-- related-properties -->
+		<div class="wthree-related-properties text-center">
+			<div class="container">
+				<h3 class="w3l-heading">Related Properties</h3>
+				<div class="col-md-3 w3-related-property">
+					<a href="#"><figure><img class="img-responsive" src="images/related-property-img1.jpg" alt="" /></figure></a>
+					<a href="#">Property Details</a>
+				</div>
+				<div class="col-md-3 w3-related-property">
+					<a href="#"><figure><img class="img-responsive" src="images/related-property-img2.jpg" alt="" /></figure></a>
+					<a href="#">Property Details</a>
+				</div>
+				<div class="col-md-3 w3-related-property">
+					<a href="#"><figure><img class="img-responsive" src="images/related-property-img3.jpg" alt="" /></figure></a>
+					<a href="#">Property Details</a>
+				</div>
+				<div class="col-md-3 w3-related-property">
+					<a href="#"><figure><img class="img-responsive" src="images/related-property-img4.jpg" alt="" /></figure></a>
+					<a href="#">Property Details</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- //related-properties -->
 	</div>
 <!-- //main-content -->
 	<!-- footer -->
