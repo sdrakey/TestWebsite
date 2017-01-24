@@ -151,14 +151,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</nav>
 		</div>
 	</div>
+	
+				 $(document).ready(function() {
+					$('#slides').superslides({
+						hashchange: true,
+						play: 2000
+							});
+				});
+			</script>
 		  <script>
-    $(function() {
-      $('#slides').superslides({
-        hashchange: true
-		play: 20
-      });
-    });
-  </script>
+
 	<!-- //slider -->
 	
 	<!-- main-content -->
