@@ -150,7 +150,7 @@ label.icon-search span {
     -moz-transition: .5s all;
     padding: 0;
 }
-.social-icons ul li a.pin {
+.social-icons ul li a.twitter {
     background-position: -3px -38px;
 }
 .social-icons ul li a.in {
@@ -162,7 +162,7 @@ label.icon-search span {
 .social-icons ul li a.you {
     background-position: -3px -154px;
 }
-.social-icons ul li a.vimeo {
+.social-icons ul li a.eventbrite {
     background-position: -2px -192px;
 }
 .social-icons ul li a:hover{
