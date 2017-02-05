@@ -33,7 +33,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Gallery -->
-<link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+	<link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
 <!-- Gallery -->
 
@@ -98,43 +98,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="logo wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
 				<img src="images/logos/logo_main.png"  class="center-block img-responsive" alt="">		
 			</div>	
+			
+				<!-- The Gallery  -->
+				 <script>
+					   jQuery(document).ready(function () {
+														jQuery("#my_nanogallery2").nanogallery2({
+																							userID: '74910423@N02',
+																							kind: 'flickr',
+																							blackList: 'Banner|Content|Hide',
+																							breadcrumbHideIcons: 'true',
+																							galleryDisplayMode: 'pagination',
+																							thumbnailToolbarAlbum: { 'topLeft': 'select', 'topRight' : 'counter'},
+																							thumbnailToolbarImage: { 'topLeft': 'select', 'topRight' : ''},
+																							thumbnailLabel: { position: 'overImageOnBottom', hideIcons: true, display: false },
+																							thumbnailL1Label: { position: 'overImageOnBottom', hideIcons: true, display: true },
+																							viewerToolbar: {display: false},
+																							thumbnailLevelUp: 'true'
+																							
+																						});
+
+														  });
+				</script>
+				<div id="my_nanogallery2">gallery_made_with_nanogallery2</div>
+			   <!-- The Gallery  -->
+		   
 		</div>	
-
-		
-		    <!-- The Gallery  -->
-
-
-<div data-nanogallery2='{
-        "userID": "74910423@N02",
-        "kind": "flickr",
-        "thumbnailLabel": {
-          "display": false, "hideIcons": true
-        },
-        "galleryDisplayMode": "pagination"
-      }'>
-
-    </div>
-
-
-<!--
-    <div data-nanogallery2='{
-        "userID": "74910423@N02",
-        "kind": "flickr",
-        "photoset": "72157678037375561",
-        "thumbnailOpenOriginal": false,
-        "thumbnailWidth": "auto",
-        "thumbnailBorderVertical": 1,
-        "thumbnailBorderHorizontal": 1,
-        "thumbnailLabel": {
-          "display": false, "hideIcons": true
-        }
-      }'>
-
-    </div>
-
--->
-	
-		   <!-- The Gallery  -->
 	</div>
 	
 <div class="footer">
