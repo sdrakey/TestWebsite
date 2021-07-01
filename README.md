@@ -32,8 +32,4 @@ sa
 d
 sad
 a
-sd
-s
-d
-as
-d
+
